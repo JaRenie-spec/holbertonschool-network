@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Show all listening TCP/UDP ports with program names and PIDs, then filter to show only listening sockets
-echo "Active Internet connections (only servers)"
 netstat -lp | grep LISTEN
